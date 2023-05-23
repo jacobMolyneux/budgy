@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react'
 import {supabase} from '../supabaseClient'
 
-const SignInPage = () => {
+const LogInPage = () => {
     let [email, setEmail] = useState('')
     let [password, setPassword] = useState('')
     const signIn = async () => {
@@ -31,6 +31,6 @@ const SignInPage = () => {
             </div>
         </section>
     )
-}
+} 
 
-export {SignInPage}
+export {LogInPage}
